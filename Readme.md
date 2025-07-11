@@ -1,9 +1,21 @@
-Designed and developed a decentralized digital election platform using Node.js, Solidity, and the Ethereum blockchain, enabling secure, transparent, and tamper-proof voting.
+Description:
+A web-based digital voting platform simulating an electronic voting system. It allows users to vote securely and anonymously while administrators manage candidates and results.
 
-Implemented robust QR code-based voter authentication and JWT-secured access control for over 500 simulated users, ensuring reliable and scalable identity verification.
+Key Features:
 
-Engineered and deployed over 15 RESTful APIs for user management, candidate configuration, vote submission, and results aggregation, backed by MongoDB for persistent data storage.
+Built with Node.js and Express.
 
-Developed a real-time voting and results dashboard using EJS templating, achieving sub-second response times for vote confirmations via blockchain transactions.
+Uses local JSON/config files to store voter or candidate data.
 
-Attained over 95% test coverage by implementing comprehensive unit and integration tests using Mocha and Mochawesome, ensuring high system reliability and contract integrity.
+Includes voting logic and result display.
+
+Tech Stack: Node.js, JavaScript, HTML/CSS.
+
+Stats:
+
+3 JavaScript modules: app.js, config.js, index.js.
+
+Suitable for educational demos or local elections.
+
+Could be extended with blockchain for integrity.
+
